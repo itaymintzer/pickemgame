@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Poppins as the primary font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    border-radius: 10px; /* Add rounded corners to the entire body */
+}
+header {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative; /* Add this line to make it a positioning context for the logo */
+    margin-bottom: 20px;
+    border-top-left-radius: 10px; /* Add rounded corners to the top left */
+    border-top-right-radius: 10px; 
+}
+
+#logo {
+    position: absolute;
+    top: 40px; /* Adjust the top distance as needed */
+    right: 50px; /* Adjust the right distance as needed */
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Add rounded corners to the main section */
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
